@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          SITE_URL: https://yellow-pebble-0072cae10.1.azurestaticapps.net
+          SITE_URL: https://jitzian.work
 
       - name: Deploy
         uses: Azure/static-web-apps-deploy@v1
